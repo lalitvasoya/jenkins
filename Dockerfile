@@ -3,7 +3,6 @@ FROM jenkins/jenkins
 USER root
 
 # Install docker
-
 RUN curl -fsSL https://get.docker.com -o get-docker.sh
 RUN sh get-docker.sh
 
