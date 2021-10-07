@@ -4,6 +4,7 @@ echo "****************************"
 echo "**   Building the docker  **"
 echo "****************************"
 
+echo '${WORKSPACE}'
 
 # change dir to worksapce
 cd $WORKSPACE
